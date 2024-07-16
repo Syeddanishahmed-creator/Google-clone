@@ -1,0 +1,103 @@
+body , head {
+    padding: 0;
+    min-height: 100vh;
+}
+* {
+box-sizing: border-box;
+}
+
+img {
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    
+}
+
+.container {
+margin-top: 100px;
+}
+
+.search-row{   
+    margin-top: 40px;
+    margin-bottom: 16px;
+    justify-content: center; 
+    display: flex;
+    align-items: center;    
+}
+
+
+
+.search-option {
+    justify-content: center; 
+    display: flex;
+    align-items: center; 
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    padding: 12px;
+    
+}
+
+.search-option:hover {
+   box-shadow: 0 1px 6px rgba(32,33,36,.28);
+   border:1px solid #fff;
+}
+
+input {
+    margin-left: 8px;
+    display: flex;
+    outline: none;
+    width: 500px;
+    border: none;
+    font-size: 16px;
+
+}
+.button {
+    text-align: center;
+}
+
+.google-search , .lucky {
+    background-color: #f8f9fa;
+    border:1px solid #fff;
+    border-radius: 4px;
+    color: #414242;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 0px 4px;
+    padding: 8px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.google-search:hover, .lucky:hover {
+  background-color: #f8f9fa ;
+  border: 1px solid #e0e0e0;
+  
+}
+
+
+
+.glass {
+    height: 20px;
+    opacity: 40%;
+}
+
+.goxjub {
+height: 24px;
+margin-right: 8px;
+}
+
+
+.Gdd5U {
+    
+    height: 24px;
+}
+
+.language {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 24px;
+    color: #3c3f3f;
+}
